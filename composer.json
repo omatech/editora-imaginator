@@ -1,0 +1,19 @@
+{
+    "name": "omatech/editora-imaginator",
+    "license": "",
+    "description": "",
+    "require": {
+        "omatech/laravel-imaginator": "1.0"
+    },
+    "authors": [
+        {
+            "name": "Christian Bohollo",
+            "email": "cbohollo@omatech.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Omatech\\Editora\\Imaginator\\": "src"
+        }
+    }
+}
