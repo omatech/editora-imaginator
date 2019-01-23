@@ -3,7 +3,7 @@
     "license": "",
     "description": "",
     "require": {
-        "omatech/laravel-imaginator": "1.0"
+        "omatech/laravel-imaginator": "^1.0"
     },
     "authors": [
         {
