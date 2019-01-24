@@ -1,6 +1,5 @@
 {
     "name": "omatech/editora-imaginator",
-    "license": "",
     "description": "",
     "require": {
         "omatech/laravel-imaginator": "^1.0"
