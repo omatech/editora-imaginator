@@ -11,8 +11,11 @@ class EditoraImageExtractor implements GetImageInterface
     {
         list($hash, $id) = explode('_', $hash);
 
-        $path = DB::table('omp_values')->where('id', $id)->select('text_val')->first()->text_val;
-
+        $path = DB::table('omp_values')->where('id', $id)->select('text_val')->first();
+        if (!$path) {
+            return null;
+        }
+        $path = $path->text_val;
         if ($hash !== md5($path)) {
             throw new InvalidHashException('The hash is invalid');
         }
