@@ -2,7 +2,9 @@
     "name": "omatech/editora-imaginator",
     "description": "",
     "require": {
-        "omatech/laravel-imaginator": "^1.0|^2.0"
+        "omatech/laravel-imaginator": "^1.0|^2.0",
+        "league/glide": "^2.0 || ^3.0 || ^4.0",
+        "symfony/http-kernel": "^5.0 || ^6.0 || ^7.0 || ^8.0"
     },
     "authors": [
         {
