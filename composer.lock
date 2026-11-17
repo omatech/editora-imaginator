@@ -405,22 +405,26 @@
         },
         {
             "name": "omatech/laravel-imaginator",
-            "version": "v2.5.2",
+            "version": "v2.5.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/omatech/laravel-imaginator.git",
-                "reference": "557e99b464821b34d2437e77c576a955b763fd1d"
+                "reference": "eed600f4ce62d5fded27057567b15ecd40b4dfe9"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/omatech/laravel-imaginator/zipball/557e99b464821b34d2437e77c576a955b763fd1d",
-                "reference": "557e99b464821b34d2437e77c576a955b763fd1d",
+                "url": "https://api.github.com/repos/omatech/laravel-imaginator/zipball/eed600f4ce62d5fded27057567b15ecd40b4dfe9",
+                "reference": "eed600f4ce62d5fded27057567b15ecd40b4dfe9",
                 "shasum": ""
             },
             "require": {
                 "league/glide": "^2.0 || ^3.0 || ^4.0",
                 "symfony/http-foundation": "^5.0 || ^6.0 || ^7.0 || ^8.0",
                 "symfony/http-kernel": "^5.0 || ^6.0 || ^7.0 || ^8.0"
+            },
+            "require-dev": {
+                "orchestra/testbench": "^11.3.0",
+                "phpunit/phpunit": "13.4.6"
             },
             "type": "library",
             "extra": {
@@ -447,9 +451,9 @@
             ],
             "support": {
                 "issues": "https://github.com/omatech/laravel-imaginator/issues",
-                "source": "https://github.com/omatech/laravel-imaginator/tree/v2.5.2"
+                "source": "https://github.com/omatech/laravel-imaginator/tree/v2.5.3"
             },
-            "time": "2026-11-11T13:03:28+00:00"
+            "time": "2026-11-17T21:33:33+00:00"
         },
         {
             "name": "psr/event-dispatcher",
